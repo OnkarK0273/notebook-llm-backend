@@ -1,0 +1,90 @@
+Title: Peer-to-Peer Book Exchange Portal
+
+Objective
+Create a mini full-stack web app that connects two types of users:
+Book Owners: People who want to give away or rent books
+Book Seekers: People searching for books to rent or exchange
+You’ll implement basic user flows, listings, and simple data handling using React + Next.js, Node.js, and optional deployment.
+Features to Implement
+1. User Profiles (Owners + Seekers)
+Two types of users:
+Book Owner → Can list books
+Book Seeker → Can browse listings
+
+
+Profile creation should include:
+Name
+Mobile Number
+Email
+Password (no encryption needed; keep it simple)
+Role: Owner or Seeker
+
+
+Save user profiles in-memory or to a file (DB optional)
+2. Book Listing Interface
+Only Book Owners can add listings
+Fields: Title, Author, Genre (optional), City/Location, Contact Email/Phone
+Anyone (Owner or Seeker) can browse listings
+Display Title, Author, Owner Info, Location
+Optionally allow:
+Searching/filtering by title or location
+“Mark as Rented/Exchanged” status toggle
+
+
+3. Authentication (Basic)
+No full auth system required
+
+
+Just implement a mock login via Email + Password
+Match against stored users
+Redirect to relevant dashboard (Owner vs Seeker)
+
+
+Bonus Features (Optional)
+Edit/delete your own book listings
+Filter listings by Genre/Location
+Add Book cover (image upload optional)
+Deploy frontend + backend
+Use any AI dev tool and mention it in README. Don’t hesitate to use AI tools; we appreciate them, and that can be a reason to submit the assignment before the deadline and have a faster interview process.
+
+
+
+Stack Guidelines
+Layer
+Preferred Stack (You can use something else as well)
+Frontend
+           React + Next.js
+Backend
+           Node.js + Express (or Fastify)
+Storage
+           In-memory or flat file (JSON)
+Deployment
+           Vercel (Frontend), Render/Railway (Backend)
+Auth
+           Basic logic — No need for JWT or full auth flow
+
+What to Submit
+GitHub repository with clean structure
+README with:
+Setup instructions
+What’s working and what’s not
+Bonus features, if any
+AI tools used, if any. Don’t hesitate to use AI tools; we appreciate them, and that can be a reason to submit the assignment before the deadline and have a faster interview process.
+Optional: Live deployment link
+Timeline
+Submit within 3 days of receiving the assignment
+ (e.g. if received on April 10 or 11, submit by April 14, 11:59 PM)
+
+Submission Link: https://forms.gle/y8JqgmGBQWy2jiSc8 
+
+
+We will take the assignment beyond these 3 days as well, so you need not worry. The only disadvantage would be late interview rounds. 
+
+
+Secret Tip: You can submit partially completed assignment as well and can inform us about the same in 3 days via submission form and wellfound and can complete the other part and re-update us on wellfound or edit the above submission link XD
+
+
+Disclaimer:
+This assignment is for evaluation only. It is not connected to any product, and the submitted work will not be used commercially.
+
+
