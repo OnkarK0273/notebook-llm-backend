@@ -15,7 +15,7 @@ text_splitter = RecursiveCharacterTextSplitter(
         chunk_overlap=50,
         separators=["\n\n", "\n", ".", " "]
 )
-
+    
 chunks = text_splitter.split_documents(documents=doc)
 
 embedder = GoogleGenerativeAIEmbeddings(
